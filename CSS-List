@@ -1,0 +1,14 @@
+<style>
+li
+{
+	list-style-image : url("Tulips.jpg");
+	list-style-position : inside;
+	list-style-type: katakana;
+}
+</style>
+<body>
+	<ol>
+		<li><a href="">Home</a>
+		<li><a href="">About</a>
+	</ol>
+</body>
