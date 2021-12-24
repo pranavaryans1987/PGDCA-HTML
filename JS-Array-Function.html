@@ -4,13 +4,29 @@
 	cars[1]= "Volvo";
 	cars[2]= "BMW";
 	
+	var fruits = [3];
+	fruits[0] = "Apple";
+	fruits[1] = "Z";
+	fruits[2] = "G";
+	
 	cars.pop();
 	cars.push("Nano");
 	cars.shift();
 	cars.unshift("XYZ");
 	
+	var twoarray = cars.concat(fruits);
+	document.write(twoarray + "<br>");
+	
+	document.write(fruits.join(" "));
+	document.write("<br>");
+	document.write(fruits.reverse()+"<br>");
+	document.write(fruits.sort()+"<br>");
+	document.write(fruits.length+"<br>");
+	
 	for (let x in cars)
 	{	
 		document.write(cars[x]);
 	}
+	
+	
 </script>
